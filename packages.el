@@ -9,7 +9,7 @@
 ;; Fun:1 ends here
 
 ;; [[file:config.org::*Fun][Fun:2]]
-(package! selectric-mode :pin "bb9e66678f34e9bc23624ff6292cf5e7857e8e5f")
+(package! selectric-mode :pin "1840de71f7414b7cd6ce425747c8e26a413233aa")
 ;; Fun:2 ends here
 
 ;; [[file:config.org::*Fun][Fun:3]]
@@ -33,7 +33,7 @@
 ;; Fun:7 ends here
 
 ;; [[file:config.org::*Fun][Fun:9]]
-(package! gif-screencast)
+(package! gif-screencast :pin "e39786458fb30e2e9683094c75c6c2cef537d9c4")
 ;; Fun:9 ends here
 
 ;; [[file:config.org::*CalcTeX][CalcTeX:1]]
@@ -62,18 +62,10 @@
 (package! lexic :recipe (:local-repo "lisp/lexic"))
 ;; Definitions:1 ends here
 
-;; [[file:config.org::*Email][Email:1]]
-(package! org-msg)
-;; Email:1 ends here
-
-;; [[file:config.org::*Email][Email:2]]
-(package! mu4e-alert)
-;; Email:2 ends here
-
 ;; [[file:config.org::*LaTeX][LaTeX:1]]
 (package! auto-activating-snippets :recipe
   (:host github :repo "ymarco/auto-activating-snippets")
-  :pin "0927bb5e853c9a5524b46e438c2efe2022b36ac2")
+  :pin "8a3ef550027700afa328e77a43e5bc3765838293")
 (package! latex-auto-activating-snippets
   :recipe (:local-repo "lisp/LaTeX-auto-activating-snippets"))
 ;; LaTeX:1 ends here
@@ -110,7 +102,7 @@
 ;; Extra functionality:1 ends here
 
 ;; [[file:config.org::*Extra functionality][Extra functionality:2]]
-(package! org-ref :pin "f582e9c53e8e4c5dcc1d3889f1b5c536c9a9b524")
+(package! org-ref :pin "2a91b6f67dc3116b0b688c1242ce67d90d833326")
 ;; Extra functionality:2 ends here
 
 ;; [[file:config.org::*Extra functionality][Extra functionality:3]]
@@ -127,7 +119,7 @@
 ;; Extra functionality:5 ends here
 
 ;; [[file:config.org::*Extra functionality][Extra functionality:7]]
-(package! org-roam-server :pin "8d1d143f5db415864c008b8e42e4d92279df9a81")
+(package! org-roam-server :pin "1dc94e102d60e53bb9929b1cdc55d4d8c2b0d64f")
 ;; Extra functionality:7 ends here
 
 ;; [[file:config.org::*Systemd][Systemd:1]]
