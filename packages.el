@@ -137,3 +137,8 @@
 ;; [[file:config.org::*Graphviz][Graphviz:1]]
 (package! graphviz-dot-mode :pin "3642a0a5f41a80c8ecef7c6143d514200b80e194")
 ;; Graphviz:1 ends here
+
+;; [[file:config.org::*Authinfo][Authinfo:1]]
+(package! authinfo-color-mode
+  :recipe (:local-repo "lisp/authinfo-color-mode"))
+;; Authinfo:1 ends here
