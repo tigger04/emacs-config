@@ -24,7 +24,7 @@
 
 (package! ess-view :pin "d4e5a340b7bcc58c434867b97923094bd0680283")
 
-;; (package! magit-delta :recipe (:host github :repo "dandavison/magit-delta") :pin "0c7d8b2359")
+;; (package! magit-delta :recipe (:host github :repo "dandavison/magit-delta") :pin "b8526f890415374822514e488341d2b706d6bc2f")
 
 (package! info-colors :pin "47ee73cc19b1049eef32c9f3e264ea7ef2aaf8a5")
 
@@ -35,7 +35,7 @@
 
 (package! auto-activating-snippets :recipe
   (:host github :repo "ymarco/auto-activating-snippets")
-  :pin "8a3ef550027700afa328e77a43e5bc3765838293")
+  :pin "a6386b062cacbbea30c6d239a771d69859839f1d")
 (package! latex-auto-activating-snippets
   :recipe (:local-repo "lisp/LaTeX-auto-activating-snippets"))
 
@@ -48,7 +48,7 @@
   :pin "dabb30ebea866ef225b81561c8265d740b1e81c3")
 
 (package! org-pretty-table-mode
-  :recipe (:host github :repo "Fuco1/org-pretty-table") :pin "88380f865a79bba49e4f501b7fe73a7bfb03bd1a")
+  :recipe (:host github :repo "Fuco1/org-pretty-table") :pin "474ad84a8fe5377d67ab7e491e8e68dac6e37a11")
 
 (package! org-fragtog :pin "92119e3ae7c9a0ae2b5c9d9e4801b5fdc4804ad7")
 
@@ -65,7 +65,7 @@
 (package! org-pandoc-import :recipe
   (:local-repo "lisp/org-pandoc-import" :files ("*.el" "filters" "preprocessors")))
 
-(package! org-roam-server :pin "1dc94e102d60e53bb9929b1cdc55d4d8c2b0d64f")
+(package! org-roam-server :pin "fde2636d794f020ed5810fa38fe57a264932f661")
 
 (package! systemd :pin "51c148e09a129ddf33d95276aa0e89d4ef6f8dd2")
 
