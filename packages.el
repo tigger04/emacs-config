@@ -8,15 +8,15 @@
 
 (package! wttrin :recipe (:local-repo "lisp" :no-byte-compile t))
 
-(package! spray :pin "00638bc916227f2f961013543d10e85a43a32e29")
+(package! spray :pin "65002a15b0c74081ac51a41134b9846e05bc2cd5")
 
 (package! theme-magic :pin "844c4311bd26ebafd4b6a1d72ddcc65d87f074e3")
 
 (package! elcord :pin "01b26d1af2f33a7c7c5a1c24d8bfb6d40115a7b0")
 
-(package! keycast :pin "038475c178e90c7bad64d113db26d42cad60e149")
+(package! keycast :pin "16d9961d15536054632be1eff75fd0fb1a4420f8")
 
-(package! gif-screencast :pin "e39786458fb30e2e9683094c75c6c2cef537d9c4")
+(package! gif-screencast :pin "1145e676b160e7b1e5756f5b0f30dd31de252e1f")
 
 (package! calctex :recipe (:host github :repo "johnbcoughlin/calctex"
                            :files ("*.el" "calctex/*.el" "calctex-contrib/*.el" "org-calctex/*.el"))
@@ -39,9 +39,9 @@
 (package! latex-auto-activating-snippets
   :recipe (:local-repo "lisp/LaTeX-auto-activating-snippets"))
 
-(unpin! org)
+(unpin! org-mode)
 
-(package! org-super-agenda :pin "3264255989021b8563ea42b5d26acbc2a024f14d")
+(package! org-super-agenda :pin "ac7f2ef05c161b10390141b6863b431dc9360edc")
 
 (package! doct
   :recipe (:host github :repo "progfolio/doct")
@@ -52,11 +52,11 @@
 
 (package! org-fragtog :pin "92119e3ae7c9a0ae2b5c9d9e4801b5fdc4804ad7")
 
-(package! org-pretty-tags :pin "40fd72f3e701e31813f383fb429d30bb88cee769")
+(package! org-pretty-tags :pin "5c7521651b35ae9a7d3add4a66ae8cc176ae1c76")
 
 (package! ox-gfm :pin "99f93011b069e02b37c9660b8fcb45dab086a07f")
 
-(package! org-ref :pin "2a91b6f67dc3116b0b688c1242ce67d90d833326")
+(package! org-ref :pin "120509c38929cc25d814e9a42092c44cb34ec34e")
 
 (package! org-graph-view :recipe (:host github :repo "alphapapa/org-graph-view") :pin "13314338d70d2c19511efccc491bed3ca0758170")
 
@@ -65,7 +65,7 @@
 (package! org-pandoc-import :recipe
   (:local-repo "lisp/org-pandoc-import" :files ("*.el" "filters" "preprocessors")))
 
-(package! org-roam-server :pin "fde2636d794f020ed5810fa38fe57a264932f661")
+(package! org-roam-server :pin "6cfb8d60abfecd985975f683e48e87d03a0f0212")
 
 (package! systemd :pin "51c148e09a129ddf33d95276aa0e89d4ef6f8dd2")
 
